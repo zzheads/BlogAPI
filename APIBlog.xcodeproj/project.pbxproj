@@ -21,6 +21,18 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A65887C1212C8E5500DC5BBE /* SQLIteModel +.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C0212C8E5500DC5BBE /* SQLIteModel +.swift */; };
+		A65887C2212C8E5500DC5BBE /* SQLIteModel +.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C0212C8E5500DC5BBE /* SQLIteModel +.swift */; };
+		A65887C3212C8E5500DC5BBE /* SQLIteModel +.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C0212C8E5500DC5BBE /* SQLIteModel +.swift */; };
+		A65887C5212C8E7000DC5BBE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C4212C8E7000DC5BBE /* Post.swift */; };
+		A65887C6212C8E7000DC5BBE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C4212C8E7000DC5BBE /* Post.swift */; };
+		A65887C7212C8E7000DC5BBE /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C4212C8E7000DC5BBE /* Post.swift */; };
+		A65887C9212C8E8700DC5BBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C8212C8E8700DC5BBE /* User.swift */; };
+		A65887CA212C8E8700DC5BBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C8212C8E8700DC5BBE /* User.swift */; };
+		A65887CB212C8E8700DC5BBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887C8212C8E8700DC5BBE /* User.swift */; };
+		A65887CD212C8E9C00DC5BBE /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887CC212C8E9C00DC5BBE /* Comment.swift */; };
+		A65887CE212C8E9C00DC5BBE /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887CC212C8E9C00DC5BBE /* Comment.swift */; };
+		A65887CF212C8E9C00DC5BBE /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65887CC212C8E9C00DC5BBE /* Comment.swift */; };
 		OBJ_1037 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* AppTests.swift */; };
 		OBJ_1039 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "APIBlog::App::Product" /* App.framework */; };
 		OBJ_1040 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Vapor::Vapor::Product" /* Vapor.framework */; };
@@ -1151,8 +1163,7 @@
 		OBJ_2960 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_558 /* Package.swift */; };
 		OBJ_2966 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_840 /* Package.swift */; };
 		OBJ_891 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_903 /* TodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* TodoController.swift */; };
-		OBJ_904 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Todo.swift */; };
+		OBJ_903 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Controller.swift */; };
 		OBJ_905 /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* app.swift */; };
 		OBJ_906 /* boot.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* boot.swift */; };
 		OBJ_907 /* configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* configure.swift */; };
@@ -4956,6 +4967,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A65887C0212C8E5500DC5BBE /* SQLIteModel +.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SQLIteModel +.swift"; sourceTree = "<group>"; };
+		A65887C4212C8E7000DC5BBE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A65887C8212C8E8700DC5BBE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A65887CC212C8E9C00DC5BBE /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		"APIBlog::App::Product" /* App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"APIBlog::AppTests::Product" /* AppTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		"APIBlog::Run::Product" /* Run */ = {isa = PBXFileReference; lastKnownFileType = text; path = Run; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -4976,7 +4991,7 @@
 		"FluentSQLite::FluentSQLite::Product" /* FluentSQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FluentSQLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"HTTP::HTTP::Product" /* HTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Multipart::Multipart::Product" /* Multipart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Multipart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_10 /* TodoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoController.swift; sourceTree = "<group>"; };
+		OBJ_10 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		OBJ_100 /* ModelEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelEvent.swift; sourceTree = "<group>"; };
 		OBJ_101 /* Pivot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pivot.swift; sourceTree = "<group>"; };
 		OBJ_102 /* SoftDeletable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftDeletable.swift; sourceTree = "<group>"; };
@@ -4994,7 +5009,6 @@
 		OBJ_116 /* QueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryBuilder.swift; sourceTree = "<group>"; };
 		OBJ_118 /* Children.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Children.swift; sourceTree = "<group>"; };
 		OBJ_119 /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
-		OBJ_12 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		OBJ_120 /* Siblings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siblings.swift; sourceTree = "<group>"; };
 		OBJ_122 /* DatabasesConfig+References.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DatabasesConfig+References.swift"; sourceTree = "<group>"; };
 		OBJ_123 /* SchemaBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemaBuilder.swift; sourceTree = "<group>"; };
@@ -6508,6 +6522,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A65887BF212C8E3100DC5BBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A65887C0212C8E5500DC5BBE /* SQLIteModel +.swift */,
+				A65887C4212C8E7000DC5BBE /* Post.swift */,
+				A65887C8212C8E8700DC5BBE /* User.swift */,
+				A65887CC212C8E9C00DC5BBE /* Comment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		OBJ_103 /* Query */ = {
 			isa = PBXGroup;
 			children = (
@@ -6532,14 +6557,6 @@
 				OBJ_116 /* QueryBuilder.swift */,
 			);
 			path = QueryBuilder;
-			sourceTree = "<group>";
-		};
-		OBJ_11 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				OBJ_12 /* Todo.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		OBJ_117 /* Relations */ = {
@@ -8517,8 +8534,8 @@
 		OBJ_8 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				A65887BF212C8E3100DC5BBE /* Models */,
 				OBJ_9 /* Controllers */,
-				OBJ_11 /* Models */,
 				OBJ_13 /* app.swift */,
 				OBJ_14 /* boot.swift */,
 				OBJ_15 /* configure.swift */,
@@ -8674,7 +8691,7 @@
 		OBJ_9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_10 /* TodoController.swift */,
+				OBJ_10 /* Controller.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -10972,6 +10989,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A65887CF212C8E9C00DC5BBE /* Comment.swift in Sources */,
+				A65887CB212C8E8700DC5BBE /* User.swift in Sources */,
+				A65887C7212C8E7000DC5BBE /* Post.swift in Sources */,
+				A65887C3212C8E5500DC5BBE /* SQLIteModel +.swift in Sources */,
 				OBJ_2235 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -11378,6 +11399,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				A65887CD212C8E9C00DC5BBE /* Comment.swift in Sources */,
+				A65887C9212C8E8700DC5BBE /* User.swift in Sources */,
+				A65887C5212C8E7000DC5BBE /* Post.swift in Sources */,
+				A65887C1212C8E5500DC5BBE /* SQLIteModel +.swift in Sources */,
 				OBJ_891 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -11386,11 +11411,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_903 /* TodoController.swift in Sources */,
-				OBJ_904 /* Todo.swift in Sources */,
+				OBJ_903 /* Controller.swift in Sources */,
 				OBJ_905 /* app.swift in Sources */,
+				A65887C2212C8E5500DC5BBE /* SQLIteModel +.swift in Sources */,
 				OBJ_906 /* boot.swift in Sources */,
+				A65887CA212C8E8700DC5BBE /* User.swift in Sources */,
 				OBJ_907 /* configure.swift in Sources */,
+				A65887C6212C8E7000DC5BBE /* Post.swift in Sources */,
+				A65887CE212C8E9C00DC5BBE /* Comment.swift in Sources */,
 				OBJ_908 /* routes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
